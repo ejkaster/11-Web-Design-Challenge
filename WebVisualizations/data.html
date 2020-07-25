@@ -3,15 +3,14 @@
 
   <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+
     <title>Web Visualization Dashboard</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	  <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 ​
   <body>
-    <!-- Start of navbar -->
+    <!-- Navbar -->
 	<div class="navigation">
 	  <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html">Latitude</a>
@@ -19,44 +18,44 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 ​
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-                  <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="temp.html">Max Temperature</a>
-                <a class="dropdown-item" href="humidity.html">Humidity</a>
-                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                <a class="dropdown-item" href="wind.html">Wind Speed</a>
-              </div>
-            </li>
-            <li class="nav-item">
-			  <a class="nav-link" href="comparisons.html">Comparisons</a>
-			</li>
-            <li class="nav-item">
-			  <a class="nav-link" href="data.html">Data</a>
-			</li>
-          </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparisons.html">Comparisons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
         </div>
       </nav>
-	</div>
-    <!-- End of navbar -->
+    </div>
+    
 
-      <!-- Start of container -->
-  <div class="container">
-    <section class="row">
-      <div>
-        <div class="description-content">
-          <h1 class="description-header">Data</h1>
-          <hr>
-          <p>The following table includes all of the data used for plotting during this project.</p>
-          <br>
-          <div class="table-responsive">
-            <table class="dataframe table table-borderless table-striped table-hover">
+
+    <!-- Container -->
+    <div class="container">
+        <section class="row">
+            <div>
+                <div class="description-content">
+                <h1 class="description-header">Data</h1>
+                <hr/>
+                <p>The following table includes all of the data used for plotting during this project.</p>
+                <br>
+                <div class="table-responsive">
+                <table class="dataframe table table-borderless table-striped table-hover">
                 <caption>Weather Data Table</caption>
                 <thead>
                   <tr style="text-align: left;">
@@ -6638,21 +6637,17 @@
                     <td>2.62</td>
                   </tr>
                 </tbody>
-              </table>
-
+                </table>
+                </div>
+                </div>
             </div>
+        </section>
+    </div>
 
-        </div>
-	  </div>
-    </section>
-  </div>
-  <!-- End of container -->
   ​
 
-  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
-  
-  </html>
+  </body>
+</html>
